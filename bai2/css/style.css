@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mgt-12{
+    margin: 12px 0;
+}
+html{
+    background-color: #ccc;
+}
+
+#main{
+    margin: 0 100px;
+    background-color: white;
+}
+
+#main .header{
+    padding-top: 50px;
+}
+
+.header .header-title{
+    margin-bottom: 20px;
+}
+.header .header-title p{
+    color: brown;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.body{
+    background-image: url('https://img5.thuthuatphanmem.vn/uploads/2021/09/22/mau-background-phong-canh-nui-non_094838434.jpg') ;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.body .container{
+    display: flex;
+    padding: 20px 20px;
+}
+
+.container .container-left{
+    flex: 1;
+    height: 700px;
+    background-color: rgba(44, 186, 118, 0.8);
+    position: relative;
+}
+
+.container .container-left .container-left-img img{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    top: 30%;
+    left: 20%;
+}
+
+.container .container-right{
+    flex: 2;
+    margin-left: 100px;
+}
+
+.container .container-right .container-right-title p:first-child{
+    text-transform: uppercase;
+    font-size: 24px; 
+}
+
+.container .container-right .container-right-title p:last-child{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.container .container-right .container-right-icon{
+    font-size: 40px;
+    color: green;
+}
+
+.container .container-right .container-right-content p{
+    font-size: 24px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.container-right .container-right-option{
+    display: flex;
+    margin-top: 12px;
+}
+
+.option{
+    flex: 1;
+}
+
+.option1{
+    flex: 1;
+    display: flex;    
+    color: green;
+    margin: 20px 20px 20px 0;
+}
+
+.option1 .option1-icon {
+    font-size: 80px;
+    margin-right: 20px;
+}
+
+.option1 .option1-content p:first-child{
+    font-size: 24px;
+}
+.option1 .option1-content p:last-child{
+    font-size: 30px;
+}
+
+.container-right-option .option2{
+    flex: 1;
+}
