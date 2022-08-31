@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+html{
+
+}
+
+#main{
+
+}
+
+.header{
+    background-color: black;
+    color: #fff;
+    height: 350px;
+    text-align: center;
+    position: relative;
+}
+
+.header .header-top-1 .header-top-logo{
+    width: 180px;
+    height: 160px;
+    
+}
+
+.header .header-top-2 span{
+    font-size: 18px;
+}
+
+.header-top-2 p{
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.header .header-bottom{
+    margin-top: 20px;
+}
+
+.header .header-bottom .header-bottom-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.header .header-bottom .header-bottom-option > li{
+    margin: 0 16px;
+}
+
+.header .header-bottom .header-bottom-option > li > a{
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    padding: 12px 20px;
+}
+
+.header .header-bottom .header-bottom-option > li:hover > a{
+    background-color: #ccc;
+}
+
+.header .header-bottom .header-bottom-option li:hover .select{
+    display: block;
+}
+.header .header-bottom .header-bottom-option .select{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 160px;
+    bottom: 90%;
+}
+
+
+.header .header-bottom .header-bottom-option .select > li{
+    display: block;
+}
+
+.header .header-bottom .header-bottom-option .select li:hover a{
+    background-color: red;
+}
+
+.header .header-bottom .header-bottom-option .select > li > a{
+    color: black;
+    display: block;
+    padding: 12px 12px;
+}
+
+.header .container {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+}
+
+.header .container{
+    padding: 20px;
+    background-color: #fff;
+    
+}
+.header .container img{
+   width: 1200px;
+   height: 600px;
+}
+.body{
+    background-color: #ccc;
+    height: 800px;
+}
+
